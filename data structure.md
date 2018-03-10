@@ -19,13 +19,13 @@
   
   ### 4. Types of data structure
   
-      *** Leanear Data structure***
+      * Leanear Data structure
 
-     >  Stack,Queue,Linked List.
+            Stack,Queue,Linked List.
          
       * Non-Leanear Data structure
       
-         >  Tree  
+            Tree  
   
   ### 5. Example of data strucuture 
   
