@@ -325,10 +325,47 @@ INSERT INTO timeslot VALUES
 // SQL Queries
 
 ``` sql
-> SELECT * FROM student;
-> SELECT * FROM student,takes WHERE student.ID = takes.ID;
-> SELECT student.ID AS ID,name,dept_name,tot_cred,course_id,sec_id,
-   semester,year,grade
-   FROM student
-   JOIN takes ON student.ID = takes.ID;
+ SELECT * FROM student;
+ 
+ SELECT * 
+ FROM student,takes 
+ WHERE student.ID = takes.ID;
+ 
+ SELECT student.ID AS ID,name,dept_name,tot_cred,course_id,sec_id,
+ semester,year,grade
+ FROM student
+ JOIN takes ON student.ID = takes.ID;
+ 
+ SELECT * 
+ FROM student 
+ LEFT OUTER JOIN takes;
+ 
+ SELECT ID 
+ FROM student 
+ LEFT OUTER JOIN takes 
+ WHERE course.id IS NULL;
+ 
+ SELECT * 
+ FROM takes 
+ RIGHT OUTER JOIN student;
+ 
+ SELECT * 
+ FROM student 
+ LEFT OUTER JOIN takes ON student.ID = takes.ID;
+ 
+ SELECT * 
+ FROM student 
+ LEFT OUTER JOIN takes ON true 
+ WHERE student.ID  = takes.ID;
+ 
+ SELECT * 
+ FROM student 
+ INNER JOIN takes USING (ID);
+ 
+ SELECT course.course_id,sec_id,building,room_number
+ FROM course,section
+ WHERE course.course_id = section.course_id
+    	AND course.dept_name = 'Physics'
+	   AND section.semister = 'Fall'
+	   AND section.year = '2009';
 ```
