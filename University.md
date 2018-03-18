@@ -3,7 +3,7 @@
 ``` sql
 CREATE DATABASE university;  # Create Database
 
-USE university;  #For use the database
+USE university;  # For use the database
 
 # Create Table
 
