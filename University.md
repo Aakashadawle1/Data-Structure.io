@@ -23,3 +23,4 @@ VARCHAR (15),
 budget
 NUMERIC (12,2) CHECK (budget > 0),
 primary key (dept_name));
+```
