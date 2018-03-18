@@ -325,6 +325,10 @@ INSERT INTO timeslot VALUES
 // SQL Queries
 
 ``` sql
-SELECT * FROM student;
-SELECT * FROM student,takes WHERE student.ID = takes.ID;
+> SELECT * FROM student;
+> SELECT * FROM student,takes WHERE student.ID = takes.ID;
+> SELECT student.ID AS ID,name,dept_name,tot_cred,course_id,sec_id,
+   semester,year,grade
+   FROM student
+   JOIN takes ON student.ID = takes.ID;
 ```
