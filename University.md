@@ -366,6 +366,6 @@ INSERT INTO timeslot VALUES
  FROM course,section
  WHERE course.course_id = section.course_id
     	AND course.dept_name = 'Physics'
-	   AND section.semister = 'Fall'
-	   AND section.year = '2009';
+	AND section.semister = 'Fall'
+	AND section.year = '2009';
 ```
