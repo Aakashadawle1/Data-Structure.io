@@ -2,10 +2,12 @@
 
 ``` sql
 CREATE DATABASE university; ``` // Create Database
+
 ```sql
 USE university; ``` //For use the database
 
 // Create Table
+
 ```sql
 CREATE TABLE classroom
 (building
