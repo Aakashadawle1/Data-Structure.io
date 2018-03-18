@@ -1,12 +1,16 @@
 # Table Creattion and Insert init
 
+// Create Database
 ``` sql
-CREATE DATABASE university;  # Create Database
+CREATE DATABASE university;
+```
+// For use the database
+``` sql
+USE university;
+```
 
-USE university;  # For use the database
-
-# Create Table
-
+// Create Table
+``` sql
 CREATE TABLE classroom
 (building
 VARCHAR (15),
