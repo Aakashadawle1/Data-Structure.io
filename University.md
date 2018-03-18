@@ -3,12 +3,12 @@
 ``` sql
 CREATE DATABASE university; ``` // Create Database
 
-```sql
+``` sql
 USE university; ``` //For use the database
 
 // Create Table
 
-```sql
+``` sql
 CREATE TABLE classroom
 (building
 VARCHAR (15),
