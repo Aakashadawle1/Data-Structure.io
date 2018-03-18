@@ -1,7 +1,5 @@
 # DataBase Information With Queries
 
-https://github.com/Aakashadawle1/DataBase.wiki.git
-
 > ## 1) What is a database and what does it do?
 Databases are used to store and handle data such as customer details for a
 business, medical records at a surgery and stock items in a warehouse.
