@@ -369,3 +369,4 @@ INSERT INTO timeslot VALUES
 	AND section.semister = 'Fall'
 	AND section.year = '2009';
 ```
+[Previous Page](https://aakashadawle1.github.io/DataBase/DBMS)
